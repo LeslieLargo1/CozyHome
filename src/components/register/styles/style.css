@@ -77,3 +77,13 @@
     text-decoration: underline;
     cursor: pointer;
 }
+
+@media (max-width: 600px) {
+    .registerLeft {
+        display: none;
+    }
+
+    .register-container {
+        width: 100%;
+    }
+}
