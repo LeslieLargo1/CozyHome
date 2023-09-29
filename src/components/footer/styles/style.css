@@ -37,3 +37,19 @@ h3 {
     justify-content: center;
 
 }
+
+@media (max-width: 600px) {
+
+    .footer {
+        height: 30rem;
+        flex-direction: column-reverse;
+    }
+
+    .footer-left {
+        margin: 2rem;
+    }
+
+    .footer-link {
+        align-items: center;
+    }
+}

@@ -6,7 +6,7 @@ const Propertylist = () => {
 
     useEffect(() => {
 
-        const apiUrl = "https://cozyhomestays.onrender.com/property/properties";
+        const apiUrl = "https://cozyhome.onrender.com/property/properties";
 
         fetch(apiUrl)
             .then((response) => response.json())

@@ -10,6 +10,12 @@
 
 }
 
+.logo {
+    display: flex;
+    align-items: center;
+
+}
+
 .nav-link {
     color: #394B4E;
     text-decoration: none;
