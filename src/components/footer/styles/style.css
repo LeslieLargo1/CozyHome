@@ -1,0 +1,39 @@
+.footer {
+    margin: 0;
+    height: 5rem;
+    background-color: #5f787d;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 20rem;
+    justify-content: space-evenly;
+
+
+}
+
+.footer-left {
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.footer-link {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    color: white;
+    font-weight: 500;
+}
+
+h3 {
+    margin: 0;
+    /* font-family: 'Lustria', sans-serif; */
+    font-family: 'roboto';
+    color: white;
+    display: flex;
+    justify-content: center;
+
+}

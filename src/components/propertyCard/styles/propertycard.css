@@ -1,0 +1,35 @@
+/* PropertyCard.css */
+
+.property-card {
+    background-color: #cedde0;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 1rem;
+    width: 17rem;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+.new-prop {
+    width: 100%;
+    object-fit: cover;
+}
+
+.property-card h2 {
+    font-size: 1.5rem;
+    margin-bottom: 8px;
+}
+
+.property-card p {
+    font-size: 1rem;
+    color: #333;
+}
+
+.property-price,
+.property-description,
+.property-location,
+.property-name {
+    display: flex;
+    justify-content: center;
+}
+
+/* Add more styles specific to PropertyCard if needed */

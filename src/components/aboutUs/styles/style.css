@@ -1,0 +1,70 @@
+/* style.css */
+
+.about-main {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    background-color: #BFC9CB
+}
+
+.about-body {
+    width: 70%;
+    margin: 4rem auto;
+    height: 75vh;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    margin-top: 4rem;
+}
+
+.about-container {
+    max-width: 50%;
+    /* Limit the content width */
+    /* margin: 0 auto; */
+    /* Center the container */
+    padding: 20px;
+    /* Add padding inside the container */
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+
+}
+
+.about-title {
+
+    background-color: #5F787D;
+    font-size: 36px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    padding-left: 30px;
+
+
+}
+
+.about-subtitle {
+    font-size: 24px;
+    /* Set the subtitle font size */
+    color: #5F787D;
+    /* Set the subtitle text color */
+    margin-top: 10px;
+    /* Add margin to separate from the title */
+}
+
+.about-paragraph {
+    font-size: 16px;
+    /* Set the paragraph font size */
+    color: #444;
+    /* Set the paragraph text color */
+    margin-top: 20px;
+    /* Add margin to separate from the subtitle */
+}

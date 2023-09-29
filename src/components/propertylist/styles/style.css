@@ -1,0 +1,13 @@
+.list {
+    height: auto;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 3rem;
+}
+
+.property-list {
+    display: flex;
+    min-height: 80vh;
+}

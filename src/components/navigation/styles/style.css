@@ -1,0 +1,64 @@
+.nav-container {
+
+    background-color: #F7F9F9;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    height: 70px;
+    padding-right: 2em;
+
+}
+
+.nav-link {
+    color: #394B4E;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 0.5rem;
+    margin: 0 0.5rem;
+    padding-right: 2rem;
+    position: relative;
+    font-weight: 500;
+    font-family: 'serif';
+    /* Add this line */
+
+}
+
+#nav-button {
+    background-color: #5F787D;
+    color: #F7F9F9;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+#nav-button:hover {
+    background-color: #394B4E;
+
+}
+
+.menu-icon {
+    /* display: none; for full screen / for mobile show*/
+    flex-direction: column;
+    height: 30px;
+    justify-content: space-around;
+    width: 24px;
+    cursor: pointer;
+    margin: 1em;
+}
+
+.menu-bar {
+    background-color: white;
+    height: 30px;
+    width: 100%;
+    transition: all 0.3s ease;
+}
+
+.menu-icon div {
+    background-color: white;
+    height: 10px;
+    width: 100%;
+    transition: all 0.3s ease;
+}
