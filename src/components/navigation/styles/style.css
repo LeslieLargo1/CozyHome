@@ -3,17 +3,27 @@
     background-color: #F7F9F9;
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: center;
     height: 70px;
-    padding-right: 2em;
+    position: fixed;
+    width: 100%;
 
 }
 
-.logo {
-    display: flex;
-    align-items: center;
+.logo-container {
+    padding-left: 2rem;
+    height: 68px;
+    z-index: 2;
 
+}
+
+.image-logo {
+    height: 150px;
+}
+
+.links {
+    padding-right: 10rem;
 }
 
 .nav-link {
@@ -67,4 +77,32 @@
     height: 10px;
     width: 100%;
     transition: all 0.3s ease;
+}
+
+@media (max-width: 600px) {
+
+    .nav-container {
+
+        background-color: #F7F9F9;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        height: 70px;
+        position: fixed;
+        width: 100%;
+
+    }
+
+    .logo-container {
+        padding-left: 0;
+        height: 70px;
+        z-index: 2;
+
+    }
+
+    .image-logo {
+        height: inherit;
+    }
+
 }

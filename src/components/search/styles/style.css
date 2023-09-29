@@ -1,7 +1,5 @@
 .search-container {
     background-color: #f7f9f9c9;
-    ;
-
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -44,4 +42,8 @@
         align-items: center;
         flex-direction: column;
     }
+}
+
+.search-container {
+    margin: 1rem;
 }

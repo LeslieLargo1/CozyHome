@@ -1,6 +1,7 @@
 import "./styles/style.css"
 import React, { useState } from "react"
 import { Link } from "react-router-dom"
+import logo from '../media/logo.png'
 
 
 const Navigation = () => {
@@ -13,8 +14,8 @@ const Navigation = () => {
 
     return (
         <nav className="nav-container">
-            <div className="logo">
-                <imgage alt="logo" src="cozy-home-stays.png"></imgage>
+            <div className="logo-container">
+                <img className="image-logo" src={logo} alt="Logo" />
             </div>
             <div className={`links ${menuOpen ? "open" : ""}`}>
                 <Link className="nav-link" to="/">
