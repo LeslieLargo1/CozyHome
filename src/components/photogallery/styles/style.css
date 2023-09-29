@@ -1,33 +1,26 @@
-/* PhotoGallery.css */
-
-/* Reset some default styles */
 body,
 html {
     margin: 0;
     padding: 0;
 }
 
-.Gallery {
+/* .Gallery {
     display: flex;
     justify-content: center;
-    width: 50%;
+    width: 100%;
     height: 100%;
-}
+} */
 
-/* Gallery container styles */
 .gallery-container {
+    display: flex;
+    width: 50%;
     overflow: hidden;
-    position: relative;
-    width: max-content;
+    /* position: relative;
     justify-content: center;
-    align-items: center;
-    border-top-right-radius: 8px;
-    border-bottom-right-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    align-items: center; */
 
 }
 
-/* Gallery slider styles */
 .gallery-slider {
     display: flex;
     transition: transform 0.5s ease-in-out;
@@ -36,6 +29,11 @@ html {
 .gallery-slide {
     width: 100%;
     height: auto;
-    /*this keeps all images same size */
     object-fit: cover;
+}
+
+@media (max-width: 600px) {
+    .gallery-container {
+        width: 100%;
+    }
 }

@@ -26,6 +26,7 @@
     padding: 1rem;
     color: white;
     font-weight: 500;
+    text-decoration: none;
 }
 
 h3 {
@@ -51,5 +52,6 @@ h3 {
 
     .footer-link {
         align-items: center;
+        text-decoration: none;
     }
 }
