@@ -19,7 +19,7 @@ const Navigation = () => {
             </div>
             <div className={`links ${menuOpen ? "open" : ""}`}>
                 <Link className="nav-link" to="/">
-                    Homepage
+                    Home
                 </Link>
                 <Link className="nav-link" to="/about">
                     About Us

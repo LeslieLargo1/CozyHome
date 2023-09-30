@@ -59,6 +59,8 @@
 #password {
     border-color: #80808042;
     border-radius: 2px;
+    width: 20rem;
+    padding: 10px;
 }
 
 .register-button {
