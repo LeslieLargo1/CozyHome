@@ -4,6 +4,8 @@ main.home-page {
     align-items: center; */
     height: auto;
     /* background-color: #BFC9CB */
+    font-family: 'Montserrat', sans-serif;
+
 }
 
 .photo {
@@ -49,7 +51,7 @@ h1.title-homepage {
     display: flex;
     justify-content: center;
     font-size: 2rem;
-    font-family: 'serif';
+    font-family: 'Montserrat', sans-serif;
     color: #5f787d;
     ;
     /* color: #F7F9F9; */
@@ -58,9 +60,10 @@ h1.title-homepage {
 }
 
 p.sub-title {
+
     font-weight: bold;
     text-align: center;
-    color: #5F787D;
+
 }
 
 
@@ -93,6 +96,8 @@ p.sub-title {
     width: 50%;
     display: flex;
     justify-content: center;
+    font-weight: 600;
+    font-size: 20px;
 }
 
 .action-button {
@@ -104,6 +109,7 @@ p.sub-title {
     cursor: pointer;
     transition: background-color 0.3s, transform 0.2s;
     font-size: 15px;
+    font-weight: 600;
 }
 
 
@@ -123,6 +129,8 @@ p.sub-title {
     cursor: pointer;
     transition: background-color 0.3s, transform 0.2s;
     font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
 
 }
 

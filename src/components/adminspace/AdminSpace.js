@@ -25,7 +25,6 @@ const Adminspace = () => {
 
     return (
         <div className="all-properties-container">
-            <h1 className="admin-title">Admin Property List</h1>
             <input
                 className='new-property'
                 type="text"
@@ -72,6 +71,8 @@ const Adminspace = () => {
             <button className="add-property" onClick={addProperty}>
                 Add Property
             </button>
+
+
             <div className="property-list">
                 {properties.map((property, index) => (
                     <PropertyCard key={index} property={property} selectedFile={selectedFile} />

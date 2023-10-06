@@ -34,8 +34,7 @@
 
 
 p.topCityCards {
-    font-family: CircularStd, Arial, Helvetica, sans-serif !important;
-
+    font-weight: 600;
 }
 
 .city-image {

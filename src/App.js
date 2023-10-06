@@ -10,6 +10,7 @@ import About from "./components/aboutUs/About"
 import Login from "./components/signIn/Login"
 import Adminspace from "./components/adminspace/AdminSpace"
 import Propertylist from "./components/propertylist/PropertyList"
+import Idproperty from "./components/idproperty/IdProperty"
 
 
 
@@ -28,6 +29,7 @@ const App = () => {
           <Route path="/login" element={<Login />} />
           <Route path="/about" element={<About />} />
           <Route path="/property/properties" element={<Propertylist />} />
+          <Route path="/property/:properyid" element={<Idproperty />} />
           <Route path="/admin" element={<Adminspace />} />
 
         </Routes>

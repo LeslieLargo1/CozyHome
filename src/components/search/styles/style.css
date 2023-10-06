@@ -22,6 +22,8 @@
     margin: 12px;
     border: 1px solid #ccc;
     border-radius: 4px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
 }
 
 .search-button {
@@ -32,6 +34,8 @@
     padding: 10px 20px;
     margin: 5px;
     cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
 }
 
 @media (max-width: 600px) {

@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import PropertyCard from '../propertyCard/PropertyCard'
+import AllPropertyCard from '../allPropertiesCard/Allpropertiescard'
 
 const Propertylist = () => {
     const [properties, setProperties] = useState([]);
@@ -8,18 +8,22 @@ const Propertylist = () => {
 
         const apiUrl = "https://cozyhome.onrender.com/property/properties";
 
+
+
         fetch(apiUrl)
             .then((response) => response.json())
-            .then((data) => setProperties(data.properties))
+            .then((data) => {
+                console.log(data); // Log the response data
+                setProperties(data.properties);
+            })
             .catch((error) => console.error('Error fetching data:', error));
     }, []);
 
     return (
         <div className="list">
-            <h1>Property Listings</h1>
             <div className="property-list">
                 {properties.map((property, index) => (
-                    <PropertyCard key={index} property={property} />
+                    <AllPropertyCard key={index} property={property} />
                 ))}
             </div>
         </div>

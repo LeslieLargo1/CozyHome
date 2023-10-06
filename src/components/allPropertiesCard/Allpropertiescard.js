@@ -1,9 +1,9 @@
 import React from 'react'
-import "./styles/propertycard.css"
+import "./styles/style.css"
 
 
 
-function PropertyCard({ property }) {
+function AllPropertyCard({ property }) {
     return (
 
         <div className="property-card">
@@ -14,15 +14,10 @@ function PropertyCard({ property }) {
             <p className='property-rooms'>Rooms# - {property.number_of_rooms}</p>
             <p className='property-description'>{property.description}</p>
 
-            <button className="update-property" >
-                Update Property
-            </button>
-            <button className="delete-property" >
-                Delete Property
-            </button>
+
         </div>
 
     )
 }
 
-export default PropertyCard
+export default AllPropertyCard
